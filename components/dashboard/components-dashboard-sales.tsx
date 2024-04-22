@@ -529,7 +529,7 @@ const ComponentsDashboardSales = () => {
                                     </div>
                                     <div className="flex-1">
                                         <div className="mb-2 flex font-semibold text-white-dark">
-                                            <h6>Income</h6>
+                                            <h6>Products Sold</h6>
                                             <p className="ltr:ml-auto rtl:mr-auto">$92,600</p>
                                         </div>
                                         <div className="h-2 rounded-full bg-dark-light shadow dark:bg-[#1b2e4b]">
@@ -550,22 +550,6 @@ const ComponentsDashboardSales = () => {
                                         </div>
                                         <div className="h-2 w-full rounded-full bg-dark-light shadow dark:bg-[#1b2e4b]">
                                             <div className="h-full w-full rounded-full bg-gradient-to-r from-[#3cba92] to-[#0ba360]" style={{ width: '65%' }}></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="flex items-center">
-                                    <div className="h-9 w-9 ltr:mr-3 rtl:ml-3">
-                                        <div className="grid h-9 w-9 place-content-center rounded-full bg-warning-light text-warning dark:bg-warning dark:text-warning-light">
-                                            <IconCreditCard />
-                                        </div>
-                                    </div>
-                                    <div className="flex-1">
-                                        <div className="mb-2 flex font-semibold text-white-dark">
-                                            <h6>Expenses</h6>
-                                            <p className="ltr:ml-auto rtl:mr-auto">$55,085</p>
-                                        </div>
-                                        <div className="h-2 w-full rounded-full bg-dark-light shadow dark:bg-[#1b2e4b]">
-                                            <div className="h-full w-full rounded-full bg-gradient-to-r from-[#f09819] to-[#ff5858]" style={{ width: '80%' }}></div>
                                         </div>
                                     </div>
                                 </div>
@@ -603,7 +587,7 @@ const ComponentsDashboardSales = () => {
                                 <div className="cursor-pointer text-sm">
                                     <div className="group relative flex items-center py-1.5">
                                         <div className="h-1.5 w-1.5 rounded-full bg-primary ltr:mr-1 rtl:ml-1.5"></div>
-                                        <div className="flex-1">Updated Server Logs</div>
+                                        <div className="flex-1">Added new product</div>
                                         <div className="text-xs text-white-dark dark:text-gray-500 ltr:ml-auto rtl:mr-auto">Just Now</div>
 
                                         <span className="badge badge-outline-primary absolute bg-primary-light text-xs opacity-0 group-hover:opacity-100 dark:bg-black ltr:right-0 rtl:left-0">
@@ -612,7 +596,7 @@ const ComponentsDashboardSales = () => {
                                     </div>
                                     <div className="group relative flex items-center py-1.5">
                                         <div className="h-1.5 w-1.5 rounded-full bg-success ltr:mr-1 rtl:ml-1.5"></div>
-                                        <div className="flex-1">Send Mail to HR and Admin</div>
+                                        <div className="flex-1">Added new video</div>
                                         <div className="text-xs text-white-dark dark:text-gray-500 ltr:ml-auto rtl:mr-auto">2 min ago</div>
 
                                         <span className="badge badge-outline-success absolute bg-success-light text-xs opacity-0 group-hover:opacity-100 dark:bg-black ltr:right-0 rtl:left-0">
@@ -621,7 +605,7 @@ const ComponentsDashboardSales = () => {
                                     </div>
                                     <div className="group relative flex items-center py-1.5">
                                         <div className="h-1.5 w-1.5 rounded-full bg-danger ltr:mr-1 rtl:ml-1.5"></div>
-                                        <div className="flex-1">Backup Files EOD</div>
+                                        <div className="flex-1">Edited product information</div>
                                         <div className="text-xs text-white-dark dark:text-gray-500 ltr:ml-auto rtl:mr-auto">14:00</div>
 
                                         <span className="badge badge-outline-danger absolute bg-danger-light text-xs opacity-0 group-hover:opacity-100 dark:bg-black ltr:right-0 rtl:left-0">
@@ -630,7 +614,7 @@ const ComponentsDashboardSales = () => {
                                     </div>
                                     <div className="group relative flex items-center py-1.5">
                                         <div className="h-1.5 w-1.5 rounded-full bg-black ltr:mr-1 rtl:ml-1.5"></div>
-                                        <div className="flex-1">Collect documents from Sara</div>
+                                        <div className="flex-1">Added new user</div>
                                         <div className="text-xs text-white-dark dark:text-gray-500 ltr:ml-auto rtl:mr-auto">16:00</div>
 
                                         <span className="badge badge-outline-dark absolute bg-dark-light text-xs opacity-0 group-hover:opacity-100 dark:bg-black ltr:right-0 rtl:left-0">
@@ -639,7 +623,7 @@ const ComponentsDashboardSales = () => {
                                     </div>
                                     <div className="group relative flex items-center py-1.5">
                                         <div className="h-1.5 w-1.5 rounded-full bg-warning ltr:mr-1 rtl:ml-1.5"></div>
-                                        <div className="flex-1">Conference call with Marketing Manager.</div>
+                                        <div className="flex-1">Requested for payout</div>
                                         <div className="text-xs text-white-dark dark:text-gray-500 ltr:ml-auto rtl:mr-auto">17:00</div>
 
                                         <span className="badge badge-outline-warning absolute bg-warning-light text-xs opacity-0 group-hover:opacity-100 dark:bg-black ltr:right-0 rtl:left-0">
@@ -789,10 +773,10 @@ const ComponentsDashboardSales = () => {
                                     </div>
                                     <div className="flex">
                                         <span className="grid h-9 w-9 shrink-0 place-content-center rounded-md bg-secondary-light text-secondary dark:bg-secondary dark:text-secondary-light">
-                                            <IconNetflix />
+                                            <IconCashBanknotes />
                                         </span>
                                         <div className="flex-1 px-3">
-                                            <div>Netflix</div>
+                                            <div>Payout</div>
                                             <div className="text-xs text-white-dark dark:text-gray-500">04 Jan 1:00PM</div>
                                         </div>
                                         <span className="whitespace-pre px-1 text-base text-danger ltr:ml-auto rtl:mr-auto">-$32.00</span>
@@ -807,10 +791,10 @@ const ComponentsDashboardSales = () => {
                                     </div>
                                     <div className="flex">
                                         <span className="grid h-9 w-9 shrink-0 place-content-center rounded-md bg-primary-light text-primary dark:bg-primary dark:text-primary-light">
-                                            <IconBolt />
+                                            <IconCashBanknotes />
                                         </span>
                                         <div className="flex-1 px-3">
-                                            <div>Electricity Bill</div>
+                                            <div>Payed vendor</div>
                                             <div className="text-xs text-white-dark dark:text-gray-500">04 Jan 1:00PM</div>
                                         </div>
                                         <span className="whitespace-pre px-1 text-base text-danger ltr:ml-auto rtl:mr-auto">-$22.00</span>
@@ -861,13 +845,13 @@ const ComponentsDashboardSales = () => {
                                 </div>
                                 <div className="mb-5 space-y-1">
                                     <div className="flex items-center justify-between">
-                                        <p className="font-semibold text-[#515365]">Netflix</p>
+                                        <p className="font-semibold text-[#515365]">Medicine</p>
                                         <p className="text-base">
                                             <span>$</span> <span className="font-semibold">13.85</span>
                                         </p>
                                     </div>
                                     <div className="flex items-center justify-between">
-                                        <p className="font-semibold text-[#515365]">BlueHost VPN</p>
+                                        <p className="font-semibold text-[#515365]">Vegetables</p>
                                         <p className="text-base">
                                             <span>$</span> <span className="font-semibold ">15.66</span>
                                         </p>
