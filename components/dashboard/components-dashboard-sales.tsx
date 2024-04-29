@@ -772,7 +772,7 @@ const ComponentsDashboardSales = () => {
                                             <IconCashBanknotes />
                                         </span>
                                         <div className="flex-1 px-3">
-                                            <div>Payout</div>
+                                            <div>Cash withdrawal</div>
                                             <div className="text-xs text-white-dark dark:text-gray-500">04 Jan 1:00PM</div>
                                         </div>
                                         <span className="whitespace-pre px-1 text-base text-danger ltr:ml-auto rtl:mr-auto">-$32.00</span>
@@ -790,7 +790,7 @@ const ComponentsDashboardSales = () => {
                                             <IconCashBanknotes />
                                         </span>
                                         <div className="flex-1 px-3">
-                                            <div>Payed vendor</div>
+                                            <div>Cash withdrawal</div>
                                             <div className="text-xs text-white-dark dark:text-gray-500">04 Jan 1:00PM</div>
                                         </div>
                                         <span className="whitespace-pre px-1 text-base text-danger ltr:ml-auto rtl:mr-auto">-$22.00</span>
@@ -806,9 +806,7 @@ const ComponentsDashboardSales = () => {
                                         <img className="block h-8 w-8 rounded-full border-2 border-white/50 object-cover ltr:mr-1 rtl:ml-1" src="/assets/images/profile-34.jpeg" alt="avatar" />
                                         Alan Green
                                     </div>
-                                    <button type="button" className="flex h-9 w-9 items-center justify-between rounded-md bg-black text-white hover:opacity-80 ltr:ml-auto rtl:mr-auto">
-                                        <IconPlus className="m-auto h-6 w-6" />
-                                    </button>
+                                    
                                 </div>
                                 <div className="flex items-center justify-between text-white">
                                     <p className="text-xl">Wallet Balance</p>
@@ -858,7 +856,7 @@ const ComponentsDashboardSales = () => {
                                         View Details
                                     </button>
                                     <button type="button" className="btn btn-success">
-                                        Pay Now $29.51
+                                        Cash Out $2953
                                     </button>
                                 </div>
                             </div>
